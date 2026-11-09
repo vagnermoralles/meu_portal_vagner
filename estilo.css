@@ -1,0 +1,99 @@
+
+/* Estilização geral do corpo da página com fundo escuro */
+body {
+    background-color: #1e1d20;
+}
+
+/* Container principal utilizando Flexbox em formato de linha */
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Agrupamento de seletores para alinhar os itens e margens das colunas */
+.coluna1, .coluna2, .coluna3 {
+    align-items: center;
+    margin: 1%;
+}
+
+/* Distribuição proporcional do espaço entre as colunas */
+.coluna1 {
+    flex-grow: 1;
+}
+
+.coluna2 {
+    flex-grow: 1;
+}
+
+.coluna3 {
+    flex-grow: 1;
+}
+
+/* Estilização das imagens */
+img {
+    width: 100%;
+    margin: 1.5%;
+}
+
+/* Estilização do título principal da página */
+h1 {
+    text-align: center;
+    color: rgb(6, 135, 209);
+    font-size: 3.5em;
+}
+
+/* Estilização dos títulos secundários */
+.coluna1 h2, .coluna2 h2, .coluna3 h2 {
+    color: rgb(6, 135, 209);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilização dos textos explicativos */
+.coluna1 p, .coluna2 p, .coluna3 p {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+/* Links normais */
+a:link {
+    color: #00d2ff;
+    text-decoration: underline;
+}
+
+/* Links já visitados */
+a:visited {
+    color: #00d2ff;
+    text-decoration: underline;
+}
+
+/* Links quando o mouse passa por cima */
+a:hover {
+    color: #00d2ff;
+    text-decoration: underline;
+}
+
+/* Links quando recebem foco */
+a:focus {
+    color: #00d2ff;
+    text-decoration: underline;
+}
+
+/* Força a cor dos links do rodapé */
+body > h1 a:link,
+body > h1 a:visited {
+    color: #00d2ff !important;
+    text-decoration: underline !important;
+}
+
+/* Mantém o link do rodapé azul ao passar o mouse */
+body > h1 a:hover {
+    color: #00d2ff !important;
+    text-decoration: underline !important;
+}

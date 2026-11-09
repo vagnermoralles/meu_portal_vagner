@@ -1,0 +1,17 @@
+/* Agrupamento de seletores para estilizar os nomes das mídias */
+.coluna1 h2, .coluna2 h2, .coluna3 h2 {
+    color: rgb(6, 135, 209);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Agrupamento de seletores para os parágrafos explicativos */
+.coluna1 p, .coluna2 p, .coluna3 p {
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
